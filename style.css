@@ -20,7 +20,7 @@ header {
     z-index: 10;
 }
 
-header .logo {
+header logo {
     font-size: 22px;
     font-weight: bold;
 }
