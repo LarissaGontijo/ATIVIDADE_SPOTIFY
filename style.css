@@ -1,0 +1,128 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+header nav .divider {
+    margin: 0 15px;
+    border-left: 1px solid #555
+}
+
+.btn-login {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid white
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(45deg, #1db954, #1ed760);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.bnt-cta {
+    background: white;
+    color: #1db954;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bnt-cta:hover {
+    background: #f2f2f2;
+}
+
+/* PLAYLISTS */
+.playlists {
+    padding: 60px 40px;
+}
+.playlists h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #f2f2f2;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.playlist-card {
+    background: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.2 ease;
+}
+
+.playlist-card:hover {
+    transform: scale(1.05);
+}
+
+.thumb {
+    width: 100%;
+    height: 180px;
+    background: #333
+    border-radius: 8px;
+    margin-bottom: 15px
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #b3b3b3;
+}
